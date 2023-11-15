@@ -1,0 +1,62 @@
+:root{
+    --bg-color: #FFEBEB ;
+    --main-color: #FF0000 ;
+    --second-color:#FFFFFF;
+    --text-color: #000000 ;
+}
+
+/* css for news section */
+.news{
+    /* height: 1000px; */
+    text-align: center;
+    margin-bottom: 50px;
+}
+.news h3{
+    font-size: 35px ;
+    padding-top: 30px;
+}
+.news h1{
+    font-size: 70px;
+    padding-top: 10px;
+}
+.newss{
+    display: flex;
+    justify-content: center;
+}
+.image-container {
+    position: relative;
+    text-align: center;
+}
+.overlay{
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,0,0,0.37);
+    color: #fff;
+    padding: 10px;
+    height: 158px;
+    width: 581px;
+}
+.overlay p .span1{
+    text-align: left;
+    font-size: 25px;
+}
+.overlay p .span2{
+    text-align: left;
+    font-size: 13px;
+}
+.overlay p .span3{
+    font-size: 20px;
+    color: blue;
+}
+.news .btnn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#news1{
+    margin: 30px 40px 30px 0px;
+}
+#news2{
+    margin: 30px 0px 30px 40px;
+}

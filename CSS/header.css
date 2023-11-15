@@ -1,0 +1,88 @@
+/* Css for header */
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    background: var(--second-color);
+    /* padding: 28px 11%; */
+    border-bottom: 1px solid transparent;
+    transition: all ease .50s;
+
+}
+
+.logo img{
+    width: 100%;
+    height: auto;
+    padding-left: 50px;
+}
+
+.navlist{
+    display: flex;
+    margin-left: 500px;
+}
+.navlist a{
+    
+    color: var(--main-color);
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0px 30px 0px 30px;
+    transition: all ease .40s;
+}
+.navlist a:hover{
+    color: var(--main-color);
+    border-bottom: 4px solid ;
+}
+.navlist p{
+    font-size: 30px;
+}
+.log-in-btn{
+    height: 50px;
+    width: 139px;
+    border-radius:10px ;
+    background-color: var(--main-color);
+    border-style: none;
+    margin-right: 40px;
+    font-size: 30px;
+    color: var(--second-color);
+    cursor: pointer;
+    text-align: center;
+    padding-top: 5px;
+}
+.log-in-btn:hover{
+    background-color: transparent;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    padding-top: 3px;
+}
+header i{
+    font-size: 35px;
+    /* margin-right: 20px; */
+    /* margin-left: 20px; */
+    cursor:pointer;
+}
+header.sticky{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid #4e5050;
+    .navlist li a{
+        color: var(--main-color);
+    }
+    .navlist{
+        color: var(--main-color);
+    }
+}
+
+#menu-icon{
+    font-size: 42px;
+    color: var(--text-color);
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+

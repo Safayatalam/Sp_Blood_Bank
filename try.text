@@ -1,0 +1,54 @@
+<!-- <div class="div1">
+                <img class="img1" src="img/news-img.png"/>
+                <div class="div2"></div>
+                <p class="p2">
+                    <span class="span2">
+                        All Swapnopothik Member Are Celebrate 12th Year of organization with a kaptai tour , 2021
+                    </span>
+                    <br/>
+                    <span class="span3">
+                        Lorem Ipsum doller set omit Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                        an unknown
+                    </span>
+                    <br/>
+                    <span class="span4">
+                        Learn More >>>
+                    </span>
+                </p>
+            </div> -->
+
+
+            /* 
+.div1{
+    width: 581px; height: 435px;
+}
+.img1{
+    width: 581px;
+    height: 435px;
+    position: absolute;
+    left: 116.5px; 
+    top:3190.5px;
+    object-fit: cover;
+}
+.div2{
+    width: 581px;
+    height: 158px; 
+    position: absolute; 
+    left: 116.5px; 
+    top: 3467.5px; 
+    background: rgba(255,0,0,0.37);
+}
+.p2{
+    width: 536px; height: 126px; position: absolute; left: 134px; top: 3474px; text-align: left;
+}
+.span2{
+    width: 536px; height: 126px; font-size: 25px; text-align: left; color: #fff;
+}
+.span3{
+    width: 536px; height: 126px; font-size: 13px; text-align: left; color: #fff;
+}
+.span4{
+    width: 536px; height: 126px; font-size: 20px; font-weight: 700; text-align: left; color: #0a21ef;
+} */ 
+

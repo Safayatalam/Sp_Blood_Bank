@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Doppio One', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    border: none;
+    outline: none;
+}
+:root{
+    --bg-color: #FFEBEB ;
+    --main-color: #FF0000 ;
+    --second-color:#FFFFFF;
+    --text-color: #000000 ;
+}
+
+body{
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+/* css for scroll button */
+.scroll-bttn i{
+    font-weight: 900;
+    position: fixed;
+    right: 2.2rem;
+    bottom: 2.2rem;
+    color: var(--main-color);
+    background-color: var(--second-color);
+    font-size: 23px;
+    padding: 9px;
+    border-radius: 0.8rem;
+    border: 3px solid;
+}
+
+.header-space{
+    height: 105px;
+}

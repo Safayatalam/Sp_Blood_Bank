@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Doppio One', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    border: none;
+    outline: none;
+}
+:root{
+    --bg-color: #FFEBEB ;
+    --main-color: #FF0000 ;
+    --second-color:#FFFFFF;
+    --text-color: #000000 ;
+}
+body{
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+.page-title{
+    background: url(../img/about_us_title_bg.png);
+    font-size: 80px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    color: var(--second-color);
+}
+.doner-list-section table img{
+    height: 50px;
+}
+
+
+.doner-list-section table{
+    border-collapse: collapse ;
+    box-shadow: 2px 2px 12px rgba(0, 0,0,0.2), -1px -1px rgba(0, 0,0,0.2);
+    background: var(--second-color);
+}
+.doner-list-section{
+    background: url(../img/page-bg.png);
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.doner-list-section table th ,.doner-list-section table td{
+    border: 3px solid var(--main-color);
+    padding: 20px ;
+    text-align: center;
+    font-size: 20px;
+}
+.doner-list-section table th{
+    color: var(--second-color);
+    background-color: var(--main-color);
+}
+
+.doner-list-section a{
+    color: var(--main-color);
+    background-color: var(--second-color);
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    padding: 10px 20px ;
+    text-transform:uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+.doner-list-section a:hover{
+    color: var(--second-color);
+    background-color: var(--main-color);
+}
+
+
+.doner-list-section img:hover{
+    background-color: var(--second-color);
+    color: var(--second-color);
+    transform: scale(3.07);
+    box-shadow: 2px 2px 12px rgba(0, 0,0,0.2), -1px -1px rgba(0, 0,0,0.2);
+}
+
+@media only screen and(max-width: 768px){
+    table{
+        width: 90%;
+    } 
+}
